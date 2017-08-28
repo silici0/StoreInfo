@@ -1,0 +1,21 @@
+{
+    "name": "silici0/module-storeinfo",
+    "description": "Return storeInfo as Address, phone, email",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "silici0@gmail.com",
+            "name": "Rafael Cunha"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "silici0\\StoreInfo\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
